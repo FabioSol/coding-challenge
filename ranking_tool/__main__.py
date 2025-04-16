@@ -1,3 +1,12 @@
+"""
+Command-line interface for the ranking tool.
+
+Usage:
+    python -m ranking_tool rank path/to/input.txt
+
+This script parses match results from a file and prints the calculated rankings.
+"""
+
 import argparse
 import os
 
