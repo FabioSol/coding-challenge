@@ -25,7 +25,7 @@ if __name__ == "__main__":
         case 'rank':
             if not os.path.exists(args.file_path):
                 parser.error(f"File not found: {args.file_path}")
-            with open(args.file_path, 'r') as f:
+            with open(args.file_path, 'r', newline=None) as f:
                 data = f.read()
 
             try:

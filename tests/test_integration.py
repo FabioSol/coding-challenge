@@ -24,7 +24,7 @@ class TestRankingToolIntegration(unittest.TestCase):
                     text=True
                 )
 
-                with open(expected_path, 'r') as f:
+                with open(expected_path, 'r', newline=None) as f:
                     expected = f.read().strip()
 
                 self.assertEqual(result.returncode, 0)
