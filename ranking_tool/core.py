@@ -63,4 +63,5 @@ class League:
         return cls([Game.from_string(s) for s in s.split(sep) if s.strip()])
 
     def __str__(self):
-        return '\n'.join([f"{position}. {team}, {points} pts" for position, team, points in self.rank])
+        return '\n'.join(
+            [f"{position}. {team}, {points} pt{'s' if points != 1 else ''}" for position, team, points in self.rank])
