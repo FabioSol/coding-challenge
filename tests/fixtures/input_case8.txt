@@ -1,0 +1,8 @@
+Lions 1             , Snakes 55 0
+Tarantulas 1        , FC. Awesome 0
+FC. Awesome 1       , Snakes 55 0
+Grouches 42 0       , FC. Awesome 1
+Grouches 42 0       , Snakes 55 1
+Grouches 42 1       , Snakes 55 0
+Lions 1             , FC. Awesome 1
+Lions 1             , Tarantulas 1

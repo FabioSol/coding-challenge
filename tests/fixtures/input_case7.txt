@@ -1,0 +1,13 @@
+    Lions 1, Snakes 0
+
+    Tarantulas 1, FC Awesome 0
+
+    FC Awesome 1, Snakes 0
+
+    Grouches 0, FC Awesome 1
+
+    Grouches 0, Snakes 1
+
+    Grouches 1, Snakes 0
+
+    Lions 1, FC Awesome 1
